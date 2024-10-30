@@ -2,8 +2,8 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 
 def load_model():
-    tokenizer = AutoTokenizer.from_pretrained("models/sentiment_model")
-    model = AutoModelForSequenceClassification.from_pretrained("models/sentiment_model")
+    tokenizer = AutoTokenizer.from_pretrained("../models/sentiment_model")
+    model = AutoModelForSequenceClassification.from_pretrained("../models/sentiment_model")
     return tokenizer, model
 
 def analyze_sentiment(text):

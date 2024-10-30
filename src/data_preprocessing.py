@@ -14,4 +14,4 @@ def preprocess_data(input_file, output_file):
     print("Dati preprocessati e salvati.")
 
 # Esegui il preprocessing
-preprocess_data('data/raw_data.csv', 'data/processed_data.csv')
+preprocess_data('../data/raw_data.csv', '../data/processed_data.csv')
