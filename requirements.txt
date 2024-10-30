@@ -1,0 +1,5 @@
+torch
+transformers
+pandas
+datasets
+flask  # opzionale, se vuoi creare un'interfaccia web
